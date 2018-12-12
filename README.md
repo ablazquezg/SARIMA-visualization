@@ -1,5 +1,6 @@
 # SARIMA-visualization
-An implementation for SARIMA model's forecasts visualization in R software. Below is a brief explanation of the code by sections.
+An implementation for SARIMA model's forecasts visualization in R software. 
+Below is a brief explanation of the code by sections.
 
 ## Load data set
 
