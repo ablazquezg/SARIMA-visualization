@@ -1,6 +1,3 @@
-
-setwd("D:/prj/GitHub Energy and Buildings")
-
 ##########################
 #### LOAD DATA SET #######
 ##########################
