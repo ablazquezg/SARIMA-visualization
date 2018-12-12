@@ -1,9 +1,24 @@
 # SARIMA-visualization
-An implementation for SARIMA model's forecasts visualization in \texttt{R} software. Below is a brief explanation of the code by sections.
+An implementation for SARIMA model's forecasts visualization in R software. Below is a brief explanation of the code by sections.
 
-## Packages
+## Packages needed
 
+library(feather)
+library(data.table)
+library(forecast)
+library(ggplot2)
+library(timeDate)
+library(tseries)
+library(GA)
+library(xts)
+library(dygraphs)
 
+library(shiny)
+library(shinydashboard)
+library(dplyr)
+library(DT)
+library(plotly)
+library(dygraphs)
 
 ## Load data set
 
@@ -11,7 +26,7 @@ Due to privacity, the data employed in the study is not showed. Instead, a simil
 
 There are 17520 observations in total, but for simplicity we take only the first 2500 observations in this data set. The last week is left for the validation of the model (test set), and an independent data set that is used neither in the training set nor in the test set is used for the model application.
 
-Note that the main objective of this app is to show a way to visualize SARIMA model forecasts using \texttt{R} software. Data pre-processing has been omitted in the code, outlier analysis is not done in this data set and holidays are not excluded. Therefore, results may be improved. 
+Note that the main objective of this app is to show a way to visualize SARIMA model forecasts using R software. Data pre-processing has been omitted in the code, outlier analysis is not done in this data set and holidays are not excluded. Therefore, results may be improved. 
 
 ## Model adjustment
 
