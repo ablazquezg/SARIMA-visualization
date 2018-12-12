@@ -22,7 +22,7 @@ The interactive plots that will be showed in the app are created by the dygraphs
 
 ## Application in a new data set
 
-The model is applied to a new independent data set that has not been used for model construction. The results will be displayed in another tab in the app.
+The model is applied to a new data set that has not been used for model construction. The results will be displayed in another tab in the app.
 
 ## Shiny app
 
