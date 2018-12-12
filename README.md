@@ -14,7 +14,7 @@ Note that the main objective of this app is to show a way to visualize SARIMA mo
 
 The model used for the visualization is obtained using genetic algorithms to speed up the estimation. The main goal is not to obtain a perfect forecast, but to obtain a good visualization of the results.
 
-The data set is divided into two: the training set and the test set. Due to double seasonality only working days are considered. 
+The data set is divided into two: the training set and the test set. Due to double seasonality only working days are considered in the code. 
 
 ## Interactive plots
 
