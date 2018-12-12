@@ -4,7 +4,7 @@ Below is a brief explanation of the code by sections.
 
 ## Load data set
 
-Due to privacity, the data employed in the study is not showed. Instead, a similar data set obtained from petolau.github.io/_rmd/DT_4_ind is used. Data are collected every 30 minutes and consist of 5 columns: date_time, value, week, date and type. For our analysis, we only consider the first two columns, i.e., date_time and value (load in kW). As there are different types of energy consumption, we pick only one of them, that is the aggregate consumption of commercial properties during one year.
+Due to privacity, the data employed in the study is not showed. Instead, a similar data set obtained from [petolau.github.io](https://github.com/PetoLau/petolau.github.io/tree/master/_rmd)  is used. Data are collected every 30 minutes and consist of 5 columns: date_time, value, week, date and type. For our analysis, we only consider the first two columns, i.e., date_time and value (load in kW). As there are different types of energy consumption, we pick only one of them, that is the aggregate consumption of commercial properties during one year.
 
 There are 17520 observations in total, but for simplicity we take only the first 2500 observations in this data set. The last week is left for the validation of the model (test set), and an independent data set that is used neither in the training set nor in the test set is used for the model application.
 
