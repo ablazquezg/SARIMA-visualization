@@ -26,7 +26,7 @@ The model is applied to a new data set that has not been used for model construc
 
 ## Shiny app
 
-The app contains two main tabs and it can be complicated as much as you want. The first tab contains the results of the SARIMA model (forecasts and application in a new data set), and the second one the residuals diagnostic. 
+The app contains two main tabs and it can be complicated as much as one wants. The first tab contains the results of the SARIMA model (forecasts and application in a new data set), and the second one the residuals diagnostic. 
 In the SARIMA model tab, the forecasts, the absolute and relative errors, and the accuracy results are shown. There is also an option to select the time horizon one wants to analize (in this example, only one time horizon is displayed).
 In the residuals diagnostic tab the residuals plot, the ACF of the residuals and the Box-Ljung test result are shown. In case there were more time horizons, we could select the desired one as in the previous case.
 
