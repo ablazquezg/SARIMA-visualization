@@ -32,33 +32,9 @@ In the residuals diagnostic tab the residuals plot, the ACF of the residuals and
 
 ## Packages needed
 
-library(feather)
+feather, data.table, forecast, ggplot2, timeDate, tseries, GA, xts, dygraphs, shiny, shinydashboard, dplyr, DT, plotly, dygraphs
 
-library(data.table)
+## Visualization example
 
-library(forecast)
-
-library(ggplot2)
-
-library(timeDate)
-
-library(tseries)
-
-library(GA)
-
-library(xts)
-
-library(dygraphs)
-
-
-library(shiny)
-
-library(shinydashboard)
-
-library(dplyr)
-
-library(DT)
-
-library(plotly)
-
-library(dygraphs)
+First executing the load_dataset.R file, and then the shiny_app.R file, the app generated must have the following appearence:
+![alt text](https://github.com/ablazquezg/SARIMA-visualization/blob/master/Visualization_app.png)
